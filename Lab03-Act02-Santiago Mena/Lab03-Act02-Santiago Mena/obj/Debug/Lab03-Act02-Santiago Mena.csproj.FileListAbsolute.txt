@@ -1,0 +1,7 @@
+C:\Users\Estudiante\Desktop\Lab03-Act02-Santiago Mena\Lab03-Act02-Santiago Mena\bin\Debug\Lab03-Act02-Santiago Mena.exe.config
+C:\Users\Estudiante\Desktop\Lab03-Act02-Santiago Mena\Lab03-Act02-Santiago Mena\bin\Debug\Lab03-Act02-Santiago Mena.exe
+C:\Users\Estudiante\Desktop\Lab03-Act02-Santiago Mena\Lab03-Act02-Santiago Mena\bin\Debug\Lab03-Act02-Santiago Mena.pdb
+C:\Users\Estudiante\Desktop\Lab03-Act02-Santiago Mena\Lab03-Act02-Santiago Mena\obj\Debug\Lab03-Act02-Santiago Mena.csproj.AssemblyReference.cache
+C:\Users\Estudiante\Desktop\Lab03-Act02-Santiago Mena\Lab03-Act02-Santiago Mena\obj\Debug\Lab03-Act02-Santiago Mena.csproj.CoreCompileInputs.cache
+C:\Users\Estudiante\Desktop\Lab03-Act02-Santiago Mena\Lab03-Act02-Santiago Mena\obj\Debug\Lab03-Act02-Santiago Mena.exe
+C:\Users\Estudiante\Desktop\Lab03-Act02-Santiago Mena\Lab03-Act02-Santiago Mena\obj\Debug\Lab03-Act02-Santiago Mena.pdb
