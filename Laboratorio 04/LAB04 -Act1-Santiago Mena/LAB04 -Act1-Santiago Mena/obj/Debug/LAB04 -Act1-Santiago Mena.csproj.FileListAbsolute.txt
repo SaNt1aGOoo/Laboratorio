@@ -1,0 +1,8 @@
+C:\Users\Estudiante\Desktop\LAB04 -Act1-Santiago Mena\LAB04 -Act1-Santiago Mena\bin\Debug\LAB04 -Act1-Santiago Mena.exe.config
+C:\Users\Estudiante\Desktop\LAB04 -Act1-Santiago Mena\LAB04 -Act1-Santiago Mena\bin\Debug\LAB04 -Act1-Santiago Mena.exe
+C:\Users\Estudiante\Desktop\LAB04 -Act1-Santiago Mena\LAB04 -Act1-Santiago Mena\bin\Debug\LAB04 -Act1-Santiago Mena.pdb
+C:\Users\Estudiante\Desktop\LAB04 -Act1-Santiago Mena\LAB04 -Act1-Santiago Mena\obj\Debug\LAB04 -Act1-Santiago Mena.csproj.AssemblyReference.cache
+C:\Users\Estudiante\Desktop\LAB04 -Act1-Santiago Mena\LAB04 -Act1-Santiago Mena\obj\Debug\LAB04 -Act1-Santiago Mena.csproj.CoreCompileInputs.cache
+C:\Users\Estudiante\Desktop\LAB04 -Act1-Santiago Mena\LAB04 -Act1-Santiago Mena\obj\Debug\LAB04 -Act1-Santiago Mena.exe
+C:\Users\Estudiante\Desktop\LAB04 -Act1-Santiago Mena\LAB04 -Act1-Santiago Mena\obj\Debug\LAB04 -Act1-Santiago Mena.pdb
+C:\Users\Estudiante\Desktop\LAB04 -Act1-Santiago Mena\LAB04 -Act1-Santiago Mena\obj\Debug\LAB04 -Act1-Santiago Mena.exe.config
