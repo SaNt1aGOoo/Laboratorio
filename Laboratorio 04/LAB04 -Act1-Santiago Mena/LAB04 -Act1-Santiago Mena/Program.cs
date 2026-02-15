@@ -33,11 +33,16 @@ namespace LAB04__Act1_Santiago_Mena
             Console.WriteLine("Energía Limitada:"+energiaLimitada);
 
             //Ejercicio4
+            Console.WriteLine();
+            string planetaMasCercano = 
+            Console.WriteLine();
             string entradaRadar;
-            Console.WriteLine("Ingrese la distnaica al planeta más cercano");
+            Console.WriteLine("Ingrese la distancia al planeta más cercano");
             entradaRadar= Console.ReadLine();
 
-            int
+            int entradaRadar = int.Parse(planetaMasCercano);
+            int distanciaFinal = entradaRadar + 100;
+            Console WriteLine("La distancia final es: " + distanciaFinal=;)
         }
     }
 }
