@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "tarea-LAB04 -Act1-Santiago Mena",
+      "appliesTo": "/",
+      "type": "launch"
+    }
+  ]
+}
