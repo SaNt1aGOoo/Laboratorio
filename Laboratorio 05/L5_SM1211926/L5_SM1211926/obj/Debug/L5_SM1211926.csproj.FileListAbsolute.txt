@@ -1,0 +1,7 @@
+C:\Laboratorios Github\Laboratorio\Laboratorio 05\L5_SM1211926\L5_SM1211926\bin\Debug\L5_SM1211926.exe.config
+C:\Laboratorios Github\Laboratorio\Laboratorio 05\L5_SM1211926\L5_SM1211926\bin\Debug\L5_SM1211926.exe
+C:\Laboratorios Github\Laboratorio\Laboratorio 05\L5_SM1211926\L5_SM1211926\bin\Debug\L5_SM1211926.pdb
+C:\Laboratorios Github\Laboratorio\Laboratorio 05\L5_SM1211926\L5_SM1211926\obj\Debug\L5_SM1211926.csproj.AssemblyReference.cache
+C:\Laboratorios Github\Laboratorio\Laboratorio 05\L5_SM1211926\L5_SM1211926\obj\Debug\L5_SM1211926.csproj.CoreCompileInputs.cache
+C:\Laboratorios Github\Laboratorio\Laboratorio 05\L5_SM1211926\L5_SM1211926\obj\Debug\L5_SM1211926.exe
+C:\Laboratorios Github\Laboratorio\Laboratorio 05\L5_SM1211926\L5_SM1211926\obj\Debug\L5_SM1211926.pdb
