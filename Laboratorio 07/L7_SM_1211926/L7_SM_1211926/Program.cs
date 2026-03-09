@@ -10,56 +10,124 @@ namespace L7_SM_1211926
     {
         static void Main(string[] args)
         {
-            // Entrada
-            Console.Write("Ingrese su nombre: ");
-            string nombre = Console.ReadLine();
-            // Proceso + Salida
-            Console.WriteLine("Hola, " + nombre + ". ¡Bienvenido/a al Laboratorio7!");
-
-            // Ejercicio 1 Suma controlada por contador (WHILE)
-
-            //Entrada
-            int numero;
+            //Ejercicio 1
+            Console.Write("Ingrese cuantos valores quiere sumar --> ");
+            int valores = int.Parse(Console.ReadLine());
             int contador = 1;
             int suma = 0;
-
-            Console.WriteLine("Ingrese el primer número: ");
-            numero = int.Parse(Console.ReadLine());
-            while (numero <= 0)
+            while (valores <= 0)
             {
-                Console.WriteLine("Ingrese el siguiente número: ");
-                numero = int.Parse(Console.ReadLine());
+                Console.WriteLine("Ingresa un valor mayor a 0: ");
+                valores = int.Parse(Console.ReadLine());
             }
 
-            //Proceso
-            while (contador <= numero)
+            while (contador <= valores)
             {
-                suma = suma + contador;
+                suma += contador;
                 contador++;
             }
-            float promedio = suma / numero;
-            //Salida
-            Console.WriteLine("El promedio es: " + promedio);
-            Console.WriteLine("La suma es: " + suma);
+            double promedio = ((double)suma / valores);
+            Console.WriteLine("Suma: " + suma);
+            Console.WriteLine("Promedio " + promedio);
 
-            //Ejercicio 2 Menú repetitivo de conversión de unidades (DO-WHILE)
+            //Ejercicio 2
 
-            //entrada
-            int Celcius;
-            int Fahrenheit;
-            int Kilómetros;
-            int Millas;
-            int Opción;
-
-            Console.WriteLine("Opciones sugeridas:");
+            int opción;
             do
             {
-                Console.WriteLine("Para convertir Celcius a Fahrenheit coloque 1");
-                Console.WriteLine("Para convertir Fahrenheit a Celcius coloque 2");
-                Console.WriteLine("Para convertir Kilómetros a Millas coloque 3");
-                Console.WriteLine("Para salir coloque 4");
+                Console.WriteLine("1. Celsius a Fahrenheit, 2. Fahrenheit a Celsius, 3. Kilómetros a Millas, 4. Salir");
+                opción = int.Parse(Console.ReadLine());
+                switch (opción)
+                {
+                    case 1:
+                        Console.Write("Ingrese grados en celsius: ");
+                        double celsius = double.Parse(Console.ReadLine());
+                        double fahrenheit = (celsius * 1.8) + 32;
+                        Console.WriteLine($"Grados Fahrenheit --> {fahrenheit:F2}");
+                        break;
 
+                    case 2:
+                        Console.Write("Ingrese grados en Fahrenheit: ");
+                        double f = double.Parse(Console.ReadLine());
+                        double c = (f - 32) / 1.8;
+                        Console.WriteLine($"Grados Celsius --> {c:F2}");
+                        break;
+
+                    case 3:
+                        Console.Write("Ingrese Kilómetros: ");
+                        double km = double.Parse(Console.ReadLine());
+                        double mi = (km / 1.609);
+                        Console.WriteLine($"Millas --> {mi:F2}");
+                        break;
+                    case 4:
+                        Console.WriteLine("Salir");
+                        break;
+                    default:
+                        Console.WriteLine("Opción invalida");
+                        break;
+                }
+            } while (opción != 4);
+
+            //Ejercicio 3
+            Random random = new Random();
+            int num = random.Next(1, 101);
+            int intento = 0;
+            int numeroElegido = 0;
+
+            while (numeroElegido != num)
+            {
+                Console.Write("Ingrese un numero entre 1 y 100 ");
+                numeroElegido = int.Parse(Console.ReadLine());
+
+                if (numeroElegido < 1 || numeroElegido > 100)
+                {
+                    Console.WriteLine("Numero fuera de rango");
+                    continue;
+                }
+
+                intento++;
+
+                if (numeroElegido < num)
+                {
+                    Console.WriteLine("Mas alto");
+                }
+                else if (numeroElegido > num)
+                {
+                    Console.WriteLine("Mas bajo");
+                }
+                else
+                {
+                    Console.WriteLine("Correcto");
+                    Console.WriteLine("Intentos: " + intento);
+                }
             }
+
+            //Ejercicio 4
+            int codigo = 1234;
+            int intentos = 0;
+            int códigoUsuario = 0;
+            do
+            {
+                Console.Write("Ingrese el codigo de 4 digitos: ");
+                códigoUsuario = int.Parse(Console.ReadLine());
+
+                if (códigoUsuario != codigo)
+                {
+                    Console.WriteLine("Codigo incorrecto");
+                    intentos++;
+                }
+                else
+                {
+                    Console.WriteLine("Acceso concedido");
+                }
+            } while (códigoUsuario != codigo && intentos < 3);
+
+            if (códigoUsuario != codigo)
+            {
+                Console.WriteLine("Cuenta bloqueada");
+            }
+
+        
         }
     }
 }
