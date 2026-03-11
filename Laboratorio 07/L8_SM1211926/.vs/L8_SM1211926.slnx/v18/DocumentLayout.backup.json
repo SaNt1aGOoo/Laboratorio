@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Laboratorios Github\\Laboratorio\\Laboratorio 07\\L8_SM1211926\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{394F8250-64FD-408A-9D1F-51AD097E520A}|L8_SM1211926\\L8_SM1211926.csproj|c:\\laboratorios github\\laboratorio\\laboratorio 07\\l8_sm1211926\\l8_sm1211926\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{394F8250-64FD-408A-9D1F-51AD097E520A}|L8_SM1211926\\L8_SM1211926.csproj|solutionrelative:l8_sm1211926\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Laboratorios Github\\Laboratorio\\Laboratorio 07\\L8_SM1211926\\L8_SM1211926\\Program.cs",
+              "RelativeDocumentMoniker": "L8_SM1211926\\Program.cs",
+              "ToolTip": "C:\\Laboratorios Github\\Laboratorio\\Laboratorio 07\\L8_SM1211926\\L8_SM1211926\\Program.cs",
+              "RelativeToolTip": "L8_SM1211926\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T14:37:07.138Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
