@@ -62,6 +62,99 @@ namespace L8_SM1211926
 
             //Ejercicio 3
 
+            int opcion;
+            double totalVentas = 0;
+            int clientes = 0;
+
+            do
+            {
+                Console.WriteLine("\nMENÚ");
+                Console.WriteLine("1) Registrar compra");
+                Console.WriteLine("2) Mostrar total de ventas");
+                Console.WriteLine("3) Mostrar cantidad de clientes atendidos");
+                Console.WriteLine("4) Salir");
+
+                Console.Write("Seleccione una opción: ");
+                opcion = Convert.ToInt32(Console.ReadLine());
+
+                switch (opcion)
+                {
+                    case 1:
+                        Console.Write("Ingrese el monto de la compra: ");
+                        double compra = Convert.ToDouble(Console.ReadLine());
+                        totalVentas += compra;
+                        clientes++;
+                        break;
+
+                    case 2:
+                        Console.WriteLine("Total de ventas del día: " + totalVentas);
+                        break;
+
+                    case 3:
+                        Console.WriteLine("Cantidad de clientes atendidos: " + clientes);
+                        break;
+
+                    case 4:
+                        Console.WriteLine("Saliendo del programa...");
+                        break;
+
+                    default:
+                        Console.WriteLine("Opción inválida");
+                        break;
+                }
+
+            } while (opcion != 4);
+
+
+            Console.WriteLine("\n===== EJERCICIO 4 =====");
+
+            int contador3 = 0;
+            int positivos = 0;
+            int negativos = 0;
+            int sumaTotal = 0;
+            int num;
+
+            do
+            {
+                Console.Write("Ingrese un número (0 para terminar): ");
+                num = Convert.ToInt32(Console.ReadLine());
+
+                if (num != 0)
+                {
+                    contador3++;
+                    sumaTotal += num;
+
+                    if (num > 0)
+                    {
+                        positivos++;
+                    }
+                    else
+                    {
+                        negativos++;
+                    }
+                }
+
+            } while (num != 0);
+
+            Console.WriteLine("Total de números ingresados: " + contador3);
+            Console.WriteLine("Cantidad de positivos: " + positivos);
+            Console.WriteLine("Cantidad de negativos: " + negativos);
+            Console.WriteLine("Suma total: " + sumaTotal);
+
+
+            //Ejercicio 5
+
+            Console.Write("Ingrese un número N: ");
+            int N = Convert.ToInt32(Console.ReadLine());
+
+            for (int i = 1; i <= N; i++)
+            {
+                for (int j = 1; j <= i; j++)
+                {
+                    Console.Write(j);
+                }
+                Console.WriteLine();
+            }
         }
     }
 }
