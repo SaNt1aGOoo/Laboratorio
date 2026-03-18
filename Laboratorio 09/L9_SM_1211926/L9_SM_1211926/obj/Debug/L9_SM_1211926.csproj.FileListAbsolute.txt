@@ -1,0 +1,2 @@
+C:\Laboratorios Github\Laboratorio\Laboratorio 09\L9_SM_1211926\L9_SM_1211926\obj\Debug\L9_SM_1211926.csproj.AssemblyReference.cache
+C:\Laboratorios Github\Laboratorio\Laboratorio 09\L9_SM_1211926\L9_SM_1211926\obj\Debug\L9_SM_1211926.csproj.CoreCompileInputs.cache
